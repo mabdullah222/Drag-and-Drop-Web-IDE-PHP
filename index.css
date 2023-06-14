@@ -1,0 +1,322 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: grey;
+}
+
+input
+{
+    border-radius: 5px;
+    border: none;
+    margin: 2px;
+    width: 50px;
+    padding: 5px;
+}
+
+.bigbox
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cont1
+{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.cont2
+{
+    border: 2px solid black;
+    width: 50%;
+    padding-bottom: 50px;
+    height: 625px;
+    overflow-y: scroll;
+}
+.cont2::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+.cont2::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+.cont2::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+.cont3
+{
+    border: 2px solid black;
+    width: 30%;
+}
+
+
+
+.components
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+
+/* Loop css */
+.loop
+{
+    background-color: brown;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#loopheader
+{
+    background-color: brown;
+}
+
+
+
+.while{
+    background-color: rgb(18, 18, 69);
+    color: white;
+}
+
+.for
+{
+    background-color: rgb(18, 18, 69);
+    color: white;
+}
+
+
+/* fuction css */
+.function
+{
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+
+.addparam
+{
+    background-color: rgb(37, 37, 86);
+    color: white;
+}
+
+/* function call css */
+
+.call
+{
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: green;
+}
+
+
+/* arithmetic css */
+.arithmetic
+{
+    flex-direction: row;
+    background-color: rgb(29, 29, 90);
+    color: white;
+    padding: 10px;
+}
+
+/* variale css */
+.variable
+{
+    flex-direction: row;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* if condition css */
+
+.if{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: purple;
+}
+
+.Do
+{
+    padding: 10px;
+}
+
+/* else if condition css */
+.elseif{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: pink;
+}
+
+
+
+/* else condition css */
+
+.else{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+
+
+
+
+/* read css */
+
+.read
+{
+    background-color: crimson;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+/* write css */
+
+.write
+{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+textarea
+{
+    padding: 10px;
+    max-height: 50px;
+    width: 100%;
+}
+
+/* echo css */
+#echo
+{
+    background-color: cyan;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+/* colors css*/
+.component
+{
+    width: 150px;
+    padding: 10px;
+    font-size: 15px;
+    cursor:pointer;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+}
+
+#variable
+{
+    background-color: aqua;;
+}
+
+#ifcon
+{
+    background-color: purple;
+}   
+
+
+#functioncreate
+{
+    background-color: yellow;
+}
+#arithmetic
+{
+    background-color: rgb(29, 29, 90);
+}
+#loop
+{
+    background-color: brown;
+}
+#elseifcon
+{
+    background-color: pink;
+}
+#elsecon
+{
+    background-color: burlywood;
+}
+#readFile
+{
+    background-color: crimson;
+}
+#writeFile
+{
+    background-color: red;
+}
+
+#functioncall
+{
+    background-color: green;
+}
+
+.header
+{
+    text-align: center;
+    background-color: black;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.header>button
+{
+    background-color: yellow;
+    padding: 10px;
+    color: rgb(9, 9, 26);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form>button
+{
+    background-color: yellow;
+    padding: 10px;
+    color: rgb(9, 9, 26);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Do
+{
+    min-height: 100px;
+    background-color: rgb(208, 127, 20);
+    padding: 30px;
+}
+
+.delete
+{
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+}
